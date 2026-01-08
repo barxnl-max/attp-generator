@@ -1,18 +1,19 @@
 {
   "name": "attp-generator",
-  "version": "1.0.0",
-  "description": "Animated Text to Picture (ATTP) generator using napi-rs canvas",
+  "version": "1.1.0",
+  "description": "ATTP & TTP generator using napi-rs canvas (animated & static text)",
   "main": "src/index.js",
   "type": "commonjs",
   "keywords": [
     "attp",
+    "ttp",
     "animated-text",
+    "text-to-image",
     "canvas",
     "gif",
     "sticker",
     "whatsapp",
-    "bot",
-    "text-to-image"
+    "bot"
   ],
   "author": "Akbar",
   "license": "MIT",
