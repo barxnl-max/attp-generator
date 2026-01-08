@@ -1,0 +1,38 @@
+{
+  "name": "attp-generator",
+  "version": "1.0.0",
+  "description": "Animated Text to Picture (ATTP) generator using napi-rs canvas",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "keywords": [
+    "attp",
+    "animated-text",
+    "canvas",
+    "gif",
+    "sticker",
+    "whatsapp",
+    "bot",
+    "text-to-image"
+  ],
+  "author": "Akbar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barxnl-max/attp-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/barxnl-max/attp-generator/issues"
+  },
+  "homepage": "https://github.com/barxnl-max/attp-generator#readme",
+  "files": [
+    "src",
+    "font"
+  ],
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.70",
+    "gif-encoder-2": "^1.0.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
